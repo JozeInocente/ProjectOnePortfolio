@@ -1,6 +1,6 @@
 body {
     font-family: "Jost", sans-serif;
-    background: url(/img/Background.gif) no-repeat center center fixed;
+    background-image: url(/img/Background.gif) no-repeat center center fixed;
     background-size: cover;
     background-color: #1A1A1A;
     color: #333;
