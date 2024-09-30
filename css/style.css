@@ -1,0 +1,59 @@
+body {
+    font-family: "Jost", sans-serif;
+    background: url(/img/Background.gif) no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 80px;
+}
+
+nav {
+    background-color: #ffffff;
+    padding: 15px 30px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #1A1A1A;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #fa572e;
+}
+
+.content-box {
+    background-color: #ffffff;
+    max-width: 600px;
+    margin: 20px auto 40px auto;
+    padding: 40px;
+    border-radius: 25px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+
+img {
+    box-shadow: 0 8px 16px rgb(80, 80, 80);
+    border-radius: 25px;
+}
+
+p {
+    padding: 10px;
+}
